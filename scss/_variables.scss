@@ -1,0 +1,69 @@
+// media queries
+$desktopHD: 1200px;
+$desktop: 992px;
+$tablet: 768px;
+$mobile: 576px;
+
+// Colours
+$primary: rgb(2, 173, 59);
+$secondary: rgb(255, 6, 0);
+$font-colour: #222222;
+$black: #000000;
+$white: #ffffff;
+
+// Font 
+$light: 300;
+$regular: 400;
+$bold: 700;
+
+$main-font: 'Roboto', sans-serif;
+$header-font: 'Roboto Condensed', sans-serif;
+
+// Styling
+$main-shadow: 0 2px 10px rgba(0, 0, 0, .5);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $header-font;
+    font-weight: $bold;
+}
+
+span {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+p {
+    font-family: $main-font;
+    font-weight: $regular;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}

@@ -1,0 +1,20 @@
+@import "./variables.scss";
+@import "./_colours.scss";
+@import "./navigation.scss";
+@import "./page.scss";
+
+/* CSS RESET, VERWIJDER DIT LATER LUIE HOND*/
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: $black;
+    font-family: $main-font;
+}
+
+img {
+    max-width: 100%;
+}

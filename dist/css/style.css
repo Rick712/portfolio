@@ -1,0 +1,105 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700; }
+
+span {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit; }
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+
+h1 {
+  font-size: 70px; }
+
+h2 {
+  font-size: 40px; }
+
+h3 {
+  font-size: 25px; }
+
+h4 {
+  font-size: 20px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+header {
+  position: fixed;
+  width: 100vw;
+  top: 0; }
+  header nav {
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); }
+    header nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end; }
+      header nav ul li {
+        list-style-type: none; }
+        header nav ul li a {
+          padding: 1rem 2rem;
+          display: block;
+          color: #02ad3b;
+          transition: all .3s ease-out; }
+          header nav ul li a:hover, header nav ul li a:focus {
+            background: #02ad3b;
+            color: #ffffff; }
+
+main section {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  max-width: 1200px;
+  margin: 0 auto; }
+
+main .page-header {
+  margin-top: 8rem;
+  margin-bottom: 5rem; }
+  main .page-header div {
+    grid-column: 1 / 5;
+    padding-right: 1rem; }
+    main .page-header div h2 {
+      margin-bottom: 2rem; }
+      main .page-header div h2 span {
+        border-bottom: solid #02ad3b 2px; }
+    main .page-header div p {
+      margin-top: 1rem;
+      font-size: 22px;
+      line-height: 1.4em; }
+  main .page-header img {
+    grid-column: 5 / 9;
+    border-radius: 20px; }
+
+main .experience h2 {
+  grid-column: 1 / 9;
+  text-align: center;
+  margin-bottom: 2rem; }
+
+main .experience div {
+  grid-column: 1 / 5; }
+
+/* CSS RESET, VERWIJDER DIT LATER LUIE HOND*/
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  font-family: "Roboto", sans-serif; }
+
+img {
+  max-width: 100%; }

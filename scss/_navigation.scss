@@ -1,0 +1,28 @@
+header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    nav {
+        background: $white;
+        box-shadow: $main-shadow;
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            li {
+                list-style-type: none;
+                a {
+                    padding: 1rem 2rem;
+                    display: block;
+                    color: $primary;
+                    transition: all .3s ease-out;
+                    &:hover,
+                    &:focus {
+                        background: $primary;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
