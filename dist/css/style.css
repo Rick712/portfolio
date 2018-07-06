@@ -59,10 +59,10 @@ header {
         header nav ul li a {
           padding: 1rem 2rem;
           display: block;
-          color: #02ad3b;
+          color: #007728;
           transition: all .3s ease-out; }
           header nav ul li a:hover, header nav ul li a:focus {
-            background: #02ad3b;
+            background: #007728;
             color: #ffffff; }
 
 main section {
@@ -82,7 +82,7 @@ main .page-header {
     main .page-header div h2 {
       margin-bottom: 2rem; }
       main .page-header div h2 span {
-        border-bottom: solid #02ad3b 2px; }
+        border-bottom: solid #007728 2px; }
     main .page-header div p {
       margin-top: 1rem;
       font-size: 22px;
@@ -108,7 +108,7 @@ main .experience {
     main .experience div h3 {
       margin-bottom: .5rem; }
       main .experience div h3 span {
-        border-bottom: solid #02ad3b 2px; }
+        border-bottom: solid #007728 2px; }
     main .experience div h4 {
       margin-bottom: 1em; }
     main .experience div .links {
@@ -116,7 +116,7 @@ main .experience {
       main .experience div .links a {
         padding: 1rem 2rem;
         display: block;
-        border: solid #02ad3b 2px;
+        border: solid #007728 2px;
         border-radius: 5px;
         margin-right: 2rem;
         color: #000000;
@@ -127,8 +127,14 @@ main .experience {
         main .experience div .links a:hover, main .experience div .links a:focus {
           transform: scale(1.1);
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-          background: #02ad3b;
+          background: #007728;
           color: #ffffff; }
+  main .experience #mp {
+    grid-column: 2 / 8;
+    background: rgba(0, 119, 40, 0.1);
+    padding: 2rem; }
+    main .experience #mp .links {
+      margin-bottom: 0; }
 
 /* CSS RESET, VERWIJDER DIT LATER LUIE HOND*/
 * {

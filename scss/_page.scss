@@ -81,5 +81,14 @@ main {
                 }
             }
         }
+
+        #mp {
+            grid-column: 2 / 8;
+            background: rgba($primary, 0.1);
+            padding: 2rem;
+            .links {
+                margin-bottom: 0;
+            }
+        }
     }
 }
